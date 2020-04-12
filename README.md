@@ -1,5 +1,9 @@
-# 23种设计模式（包含但是不限于）可以分为三类：创建型、结构型、行为型
+# 23种设计模式可以分为三类：创建型、结构型、行为型
+创建型模式用来说明在不同的应用场景下如何优雅的创建对象，包括：Factory Method,Abstract Factory, Builder, Prototype, Singleton;
 
+结构型模式用来说明如何安全、统一（按照面向对象程序设计原则）地对对象进行访问或修改，包括：Adapter,Bridge, Composite, Decorator, Facade, Flyweight, Proxy;
+
+行为型模式则用来说明对象如何更好地执行方法以及如何优雅地同其他对象发生交互，或者对象间如何优雅地进行协同工作，包括：Interpreter, Template Method, Chain of Responsibility, Command,Iterator, Mediator, Memento, Observer, State, Strategy, Visitor.
 ##    AbstractFactory
 
 Provide an interface for creating families of related or dependent object without specifying their concrete classes.
@@ -230,10 +234,4 @@ Represent an operation to be performedon the elements of an object structure. Vi
 
  
 
-#   种设计模式可以分为三类：创建型、结构型、行为型。
 
-创建型模式用来说明在不同的应用场景下如何优雅的创建对象，包括：Factory Method,Abstract Factory, Builder, Prototype, Singleton;
-
-结构型模式用来说明如何安全、统一（按照面向对象程序设计原则）地对对象进行访问或修改，包括：Adapter,Bridge, Composite, Decorator, Facade, Flyweight, Proxy;
-
-行为型模式则用来说明对象如何更好地执行方法以及如何优雅地同其他对象发生交互，或者对象间如何优雅地进行协同工作，包括：Interpreter, Template Method, Chain of Responsibility, Command,Iterator, Mediator, Memento, Observer, State, Strategy, Visitor.
