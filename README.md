@@ -1,4 +1,7 @@
 # 23种设计模式可以分为三类：创建型、结构型、行为型
+
+关于设计原则，最重要是开闭原则（OCP:Open Closed Principle），开闭原则是指对于一个软件实体、函数、类我们需要对功能开放拓展，关闭对功能修改。是面向接口编程的基本原则，面向抽象编程，依赖抽象，这样可以写出可维护代码，提高代码可拓展性。
+
 创建型模式用来说明在不同的应用场景下如何优雅的创建对象，包括：Factory Method,Abstract Factory, Builder, Prototype, Singleton;
 
 结构型模式用来说明如何安全、统一（按照面向对象程序设计原则）地对对象进行访问或修改，包括：Adapter,Bridge, Composite, Decorator, Facade, Flyweight, Proxy;
